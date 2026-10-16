@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Politique de confidentialité — IMO5</title>
+  <meta name="description" content="Politique de confidentialité de l'application IMO5, édité par CYBERBOY SARL (Libreville, Gabon)." />
+  <style>
+    :root {
+      --primary: #2E7D5B;
+      --surface: #ffffff;
+      --background: #F7F8F6;
+      --divider: #E5E7E3;
+      --text-primary: #1A2420;
+      --text-secondary: #5F6C66;
+      --text-muted: #8A9690;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--background);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      background: var(--surface);
+      min-height: 100vh;
+    }
+    @media (min-width: 768px) {
+      .container {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 16px;
+        border: 1px solid var(--divider);
+      }
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 4px;
+      line-height: 1.2;
+    }
+    .meta {
+      color: var(--text-secondary);
+      font-size: 13px;
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 32px 0 8px;
+    }
+    p { margin: 0 0 12px; }
+    ul {
+      margin: 0 0 12px;
+      padding-left: 20px;
+    }
+    li { margin-bottom: 4px; }
+    .editor {
+      margin-top: 48px;
+      padding: 16px;
+      background: var(--background);
+      border: 1px solid var(--divider);
+      border-radius: 12px;
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    .editor strong { color: var(--text-primary); }
+    a { color: var(--primary); }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      padding: 24px 16px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Politique de confidentialité</h1>
+    <p class="meta">Dernière mise à jour : 16 octobre 2026</p>
+
+    <p>
+      CYBERBOY SARL (« nous », « IMO5 »), éditeur de l'application IMO5,
+      s'engage à protéger la vie privée de ses utilisateurs. Cette politique
+      explique quelles données nous collectons, pourquoi, comment nous les
+      protégeons, et vos droits.
+    </p>
+
+    <h2>1. Données collectées</h2>
+    <p>Nous collectons les données suivantes lorsque vous utilisez IMO5 :</p>
+    <ul>
+      <li>Numéro de téléphone (identifiant principal, collecté à l'inscription via vérification OTP)</li>
+      <li>Nom d'affichage et photo de profil (optionnelle)</li>
+      <li>Email (optionnel, pour les notifications)</li>
+      <li>Photos et informations des annonces publiées</li>
+      <li>Messages échangés entre utilisateurs via la messagerie IMO5 (uniquement visibles par les 2 participants)</li>
+      <li>Documents de vérification propriétaire (CNI, facture SEEG, titre foncier) — chiffrés, accessibles uniquement aux modérateurs IMO5</li>
+      <li>Références de paiement mobile money (numéro payeur + ID transaction) pour les Boosts</li>
+      <li>Données techniques : type d'appareil, version système, logs d'activité (via Firebase Analytics)</li>
+      <li>Token de notification push (FCM) pour vous envoyer des notifications</li>
+    </ul>
+
+    <h2>2. Finalités du traitement</h2>
+    <p>Nous utilisons vos données uniquement pour :</p>
+    <ul>
+      <li>Vous authentifier et créer votre compte</li>
+      <li>Afficher vos annonces publiques et faciliter la mise en relation avec d'autres utilisateurs</li>
+      <li>Modérer le contenu publié (vérification des documents propriétaire, traitement des signalements)</li>
+      <li>Envoyer des notifications liées à votre activité (nouveau message, changement de statut d'annonce, validation KYC)</li>
+      <li>Prévenir les abus, les fraudes et la coordination de faux signalements</li>
+      <li>Améliorer le produit via des statistiques agrégées et anonymes</li>
+    </ul>
+
+    <h2>3. Partage avec des tiers</h2>
+    <p>Vos données ne sont jamais vendues. Elles ne sont partagées que dans les cas suivants :</p>
+    <ul>
+      <li>Avec un autre utilisateur IMO5 : uniquement les informations publiques de votre profil (nom, photo, statut vérifié, numéro si vous le partagez volontairement dans un message)</li>
+      <li>Avec un partenaire IMO5 (banque pour un prêt, assureur pour une habitation) : UNIQUEMENT après votre consentement explicite via le formulaire « Services partenaires », et UNIQUEMENT les coordonnées que vous avez volontairement renseignées</li>
+      <li>Avec Firebase (Google LLC) : hébergement des données (serveurs Firestore, Storage, Cloud Functions). Google agit en tant que sous-traitant technique.</li>
+      <li>En cas d'obligation légale (demande judiciaire, autorité compétente gabonaise)</li>
+    </ul>
+
+    <h2>4. Sécurité</h2>
+    <p>
+      Toutes les communications entre l'application et nos serveurs sont
+      chiffrées en transit (HTTPS/TLS). Les données sensibles (documents KYC)
+      sont stockées chiffrées au repos.
+    </p>
+    <p>
+      L'accès aux données personnelles est strictement limité : seuls les
+      modérateurs IMO5 agréés peuvent consulter les documents de vérification,
+      dans le cadre strict de leur mission.
+    </p>
+
+    <h2>5. Durée de conservation</h2>
+    <ul>
+      <li>Compte actif : tant que votre compte est actif</li>
+      <li>Historique des transactions : 90 jours puis suppression automatique</li>
+      <li>Documents KYC : conservés tant que votre vérification est valide, supprimés sous 30 jours après suppression de votre compte</li>
+      <li>Messages privés : tant que la conversation est active (vous pouvez la supprimer à tout moment)</li>
+      <li>Annonces supprimées : conservées 7 jours puis purgées</li>
+    </ul>
+
+    <h2>6. Vos droits</h2>
+    <p>Vous disposez des droits suivants sur vos données :</p>
+    <ul>
+      <li>Accès : voir les données que nous avons sur vous</li>
+      <li>Rectification : corriger les données inexactes (depuis « Modifier mon profil »)</li>
+      <li>Suppression : demander la suppression de votre compte et de vos données associées</li>
+      <li>Opposition : refuser le traitement de certaines données (ex. partage avec partenaires)</li>
+      <li>Portabilité : récupérer vos données dans un format exploitable</li>
+    </ul>
+    <p>
+      Pour exercer ces droits, écrivez à
+      <a href="mailto:support@imo5.app">support@imo5.app</a>. Nous répondons
+      sous 30 jours maximum.
+    </p>
+
+    <h2>7. Cookies et traceurs</h2>
+    <p>
+      IMO5 n'utilise pas de cookies tiers publicitaires. Firebase Analytics
+      est utilisé pour mesurer l'utilisation anonyme de l'application (nombre
+      d'écrans ouverts, actions principales). Aucune donnée personnelle n'est
+      transmise à des régies publicitaires.
+    </p>
+
+    <h2>8. Mineurs</h2>
+    <p>
+      IMO5 est strictement réservé aux personnes âgées de 18 ans ou plus.
+      Nous ne collectons pas sciemment de données de mineurs. Si vous estimez
+      qu'un mineur a créé un compte, écrivez-nous à
+      <a href="mailto:support@imo5.app">support@imo5.app</a> pour suppression
+      immédiate.
+    </p>
+
+    <h2>9. Modifications de la politique</h2>
+    <p>
+      Cette politique peut évoluer. Les modifications substantielles seront
+      notifiées via l'application au moins 15 jours avant leur entrée en
+      vigueur.
+    </p>
+
+    <h2>10. Contact</h2>
+    <div class="editor">
+      <strong>CYBERBOY SARL</strong><br />
+      Libreville, Gabon<br />
+      <a href="mailto:support@imo5.app">support@imo5.app</a>
+    </div>
+  </main>
+  <footer>
+    © 2026 CYBERBOY SARL — Édité au Gabon
+  </footer>
+</body>
+</html>
